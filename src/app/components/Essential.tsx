@@ -38,7 +38,7 @@ export default function Essential() {
             className="rounded-md object-cover"
           />
           <button className="absolute bottom-4 left-4 bg-white text-black font-medium px-4 py-2 mx-6 my-7 rounded-full shadow-lg">
-            Kid's
+            Kid
           </button>
         </div>
       </div>
@@ -84,12 +84,12 @@ export default function Essential() {
         </div>
 
         <div className="space-y-1">
-          <h3 className="font-bold mb-2 text-sm sm:text-lg">Kids'</h3>
+          <h3 className="font-bold mb-2 text-sm sm:text-lg">Kids</h3>
           <ul>
             <li className="text-xs sm:text-sm">Infant & Toddler Shoes</li>
-            <li className="text-xs sm:text-sm">Kids' Shoes</li>
-            <li className="text-xs sm:text-sm">Kids' Jordan Shoes</li>
-            <li className="text-xs sm:text-sm">Kids' Basketball Shoes</li>
+            <li className="text-xs sm:text-sm">Kids Shoes</li>
+            <li className="text-xs sm:text-sm">Kids Jordan Shoes</li>
+            <li className="text-xs sm:text-sm">Kids Basketball Shoes</li>
           </ul>
         </div>
       </div>

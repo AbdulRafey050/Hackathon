@@ -32,7 +32,7 @@ const Gear = () => {
             className="w-full h-[300px] object-cover"
           />
           <div className="mt-2 text-sm font-bold">Nike Dri-FIT ADV TechKnit Ultra</div>
-          <div className="text-sm">Men's Short-Sleeve Running Top</div>
+          <div className="text-sm">Men Short-Sleeve Running Top</div>
           <div className="text-sm font-bold">₹ 3,895</div>
         </div>
 
@@ -43,7 +43,7 @@ const Gear = () => {
             className="w-full h-[300px] object-cover"
           />
           <div className="mt-2 text-sm font-bold">Nike Dri-FIT Challenger</div>
-          <div className="text-sm">Men's 18cm (approx.) 2-in-1 Versatile Shorts</div>
+          <div className="text-sm">Men 18cm (approx.) 2-in-1 Versatile Shorts</div>
           <div className="text-sm font-bold">₹ 2,495</div>
         </div>
         <div className="w-full max-w-[300px] mx-auto">
@@ -53,7 +53,7 @@ const Gear = () => {
             className="w-full h-[300px] object-cover"
           />
           <div className="mt-2 text-sm font-bold">Nike Dri-FIT ADV Run Division</div>
-          <div className="text-sm">Women's Long-Sleeve Running Top</div>
+          <div className="text-sm">Women Long-Sleeve Running Top</div>
           <div className="text-sm font-bold">₹ 5,295</div>
         </div>
 
@@ -64,7 +64,7 @@ const Gear = () => {
             className="w-full h-[300px] object-cover"
           />
           <div className="mt-2 text-sm font-bold">Nike Fast</div>
-          <div className="text-sm">Women's Mid-Rise 7/8 Running Leggings with Pockets</div>
+          <div className="text-sm">Women Mid-Rise 7/8 Running Leggings with Pockets</div>
           <div className="text-sm font-bold">₹ 3,795</div>
         </div>
       </div>

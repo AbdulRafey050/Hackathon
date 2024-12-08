@@ -6,7 +6,7 @@ const Miss = () => {
     <div>
       <div className="w-[1344px] h-[700px] mx-auto">
         <div className="flex justify-between items-start">
-          <h1 className="text-xl font-semibold">Don't Miss</h1>
+          <h1 className="text-xl font-semibold">Dont Miss</h1>
         </div>
 
         <div className="mt-6">

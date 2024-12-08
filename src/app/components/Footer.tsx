@@ -5,16 +5,16 @@ export default function Footer() {
 
         <div className="absolute top-4 right-4 flex space-x-4">
           <a href="#" aria-label="Twitter" className="hover:opacity-75">
-            <img src="/n1.png" alt="Twitter" className="w-6 h-6" />
+            <Image src="/n1.png" alt="Twitter" height={50} width={50} className="w-6 h-6" />
           </a>
           <a href="#" aria-label="Facebook" className="hover:opacity-75">
-            <img src="/n2.png" alt="Facebook" className="w-6 h-6" />
+            <Image src="/n2.png" alt="Facebook" height={50} width={50} className="w-6 h-6" />
           </a>
           <a href="#" aria-label="YouTube" className="hover:opacity-75">
-            <img src="/n3.png" alt="YouTube" className="w-6 h-6" />
+            <Image src="/n3.png" alt="YouTube" height={50} width={50} className="w-6 h-6" />
           </a>
           <a href="#" aria-label="Instagram" className="hover:opacity-75">
-            <img src="/n4.png" alt="Instagram" className="w-6 h-6" />
+            <Image src="/n4.png" alt="Instagram" height={50} width={50} className="w-6 h-6" />
           </a>
         </div>
 
