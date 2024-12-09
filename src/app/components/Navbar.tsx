@@ -4,6 +4,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { FiSearch, FiHeart, FiMenu, FiX } from "react-icons/fi";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
+import Image from "next/image";
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,10 +15,12 @@ const Navbar: React.FC = () => {
 
         <div className="flex-shrink-0 left-6">
           <Link href="/">
-            <img
+            <Image
               src="/logo2.png" 
               alt="Exclusive Logo"
               className="h-8  w-auto"
+              height={25}
+              width={25}
             />
           </Link>
         </div>

@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Featured = () => {
   return (
@@ -30,13 +31,13 @@ const Featured = () => {
         <p className="text-gray-600 mt-4 text-lg">
           Cause everyone should know the feeling of running in that perfect pair.
         </p>
-
+        <Link href='/allproducts'>
         <button
           className="mt-8 px-6 py-3 bg-black text-white text-lg font-medium rounded-full hover:bg-gray-800 transition-all"
-          onClick={() => alert("Find Your Shoe clicked")}
         >
           Find Your Shoe
         </button>
+        </Link>
       </div>
     </div>
   );
