@@ -96,7 +96,7 @@ export default function HelpPage() {
   
               {/* Phone Section */}
               <div className="flex items-center mb-4">
-                <Image src="/path/to/phone-logo.svg" alt="Phone Logo" height={25} width={25} className="w-6 h-6 mr-3" />
+                <Image src="/si1.png" alt="Phone Logo" height={25} width={25} className="w-6 h-6 mr-3" />
                 <p className="font-semibold text-gray-800">000 800 919 0566</p>
               </div>
               <p className="text-gray-600 mb-4">Products & Orders: 24 hours a day, 7 days a week</p>
@@ -104,21 +104,21 @@ export default function HelpPage() {
   
               {/* Support Hours */}
               <div className="flex items-center mb-4">
-                <Image src="/path/to/time-logo.svg" alt="Clock Logo" height={25} width={25} className="w-6 h-6 mr-3" />
+                <Image src="/si2.png" alt="Clock Logo" height={25} width={25} className="w-6 h-6 mr-3" />
                 <p className="font-semibold text-gray-800">24 hours a day</p>
               </div>
               <p className="text-gray-800 mb-8">7 days a week</p>
   
               {/* Email Section */}
               <div className="flex items-center mb-4">
-                <Image src="/path/to/email-logo.svg" alt="Email Logo" height={25} width={25} className="w-6 h-6 mr-3" />
+                <Image src="/si3.png" alt="Email Logo" height={25} width={25} className="w-6 h-6 mr-3" />
                 <p className="font-semibold text-gray-800">We will reply within</p>
               </div>
               <p className="text-gray-800 mb-8">five business days</p>
   
               {/* Store Locator */}
               <div className="flex items-center mb-4">
-                <Image src="/path/to/location-logo.svg" alt="Location Logo" height={25} width={25} className="w-6 h-6 mr-3" />
+                <Image src="/si4.png" alt="Location Logo" height={25} width={25} className="w-6 h-6 mr-3" />
                 <p className="font-semibold text-gray-800">STORE LOCATOR</p>
               </div>
               <p className="text-gray-600">Find Nike retail stores near you</p>

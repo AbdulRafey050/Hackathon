@@ -4,8 +4,9 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <div className="max-w-[1440px] h-9 mx-auto flex justify-center gap-[1050px] px-4 bg-[#F5F5F5] items-center">
-      <div>
+    <div className="max-w-[1440px] mx-auto flex flex-wrap justify-between items-center px-4 py-2 bg-[#F5F5F5]">
+      {/* Logo Section */}
+      <div className="flex items-center">
         <Image
           src="/logo1.png"
           alt="logo"
@@ -15,16 +16,18 @@ const Header = () => {
         />
       </div>
 
-      <div className="h-[30px]">
-        Find a Store &nbsp; | &nbsp;
+      {/* Navigation Section */}
+      <div className="flex flex-wrap justify-center items-center gap-2 text-sm sm:text-base">
+        <span className="hidden sm:inline">Find a Store</span>
+        <span className="hidden sm:inline">|</span>
         <Link href="/help" className="text-black hover:underline">
           Help
         </Link>
-        &nbsp; | &nbsp;
+        <span className="hidden sm:inline">|</span>
         <Link href="/joinus" className="text-black hover:underline">
           Join us
         </Link>
-        &nbsp; | &nbsp;
+        <span className="hidden sm:inline">|</span>
         <Link href="/signin" className="text-black hover:underline">
           Sign In
         </Link>

@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="w-full px-6 py-4 bg-white border-black border-b-[0.5px] border-opacity-30">
+    <div className="w-full px-6 py-4 bg-white border-black border-b-[0.5px] border-opacity-30 z-50 relative">
       <div className="max-w-[1170px] mx-auto px-4 flex items-center justify-between">
 
         <div className="flex-shrink-0 left-6">
