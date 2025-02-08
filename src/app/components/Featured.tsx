@@ -35,7 +35,7 @@ const Featured = () => {
         <button
           className="mt-8 px-6 py-3 bg-black text-white text-lg font-medium rounded-full hover:bg-gray-800 transition-all"
         >
-          Find Your Shoe
+          Find Your Shoes
         </button>
         </Link>
       </div>

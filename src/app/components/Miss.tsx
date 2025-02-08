@@ -1,5 +1,6 @@
 import React from "react";
 import Image from 'next/image';
+import Link from "next/link";
 
 const Miss = () => {
   return (
@@ -30,9 +31,11 @@ const Miss = () => {
             Your built-to-last, all-week wears—but with style only Jordan Brand
             can deliver.
           </p>
+          <Link href="/allproducts">
           <button className="mt-4 px-6 py-2 bg-black text-white text-sm font-bold rounded-full hover:bg-gray-800 transition">
             Shop
           </button>
+          </Link>
         </div>
       </div>
     </div>

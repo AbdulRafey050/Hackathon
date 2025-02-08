@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 
 const Header = () => {
   return (
@@ -28,9 +29,18 @@ const Header = () => {
           Join us
         </Link>
         <span className="hidden sm:inline">|</span>
-        <Link href="/signin" className="text-black hover:underline">
-          Sign In
-        </Link>
+        
+        {/* Authentication Section */}
+        <SignedOut>
+          <SignInButton>
+            <Link href="" className="text-black hover:underline">
+              Sign In
+            </Link>
+          </SignInButton>
+        </SignedOut>
+        <SignedIn>
+          <UserButton />
+        </SignedIn>
       </div>
     </div>
   );
